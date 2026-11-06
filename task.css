@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    text-align: center;
+    padding: 30px;
+}
+body{
+    background-color:whitesmoke;
+}
+.main{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+}
+.card{
+  
+  border:  2px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: 2px 3px 4px gray;
+  
+
+}
+.card img{
+    
+    height: auto;
+    
+}
+.card h3{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(55, 12, 12);
+    width: 100%;
+}
+.categ{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: red;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+
+.categ h5{
+    font-size: 18px;
+}
+.categ .type{
+    color: blue;
+    font-size: 20px;
+    
+}
+.fa-solid{
+    color: orangered;
+    font-size: 22px;
+}
+.fa-regular{
+    color: black;
+    font-size: 22px;
+}
+.span{
+    width: auto;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(254, 177, 34);
+    color: white;
+    text-align: center;
+   
+}
+.diff{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.diff h6{
+    color: purple;
+    font-size: 20px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+    background-color:black;
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+    color:white;
+}
